@@ -2,20 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="d3.layout.cloud.js"></script>
+  <script src="topscore.js"></script>
+  <style>
+      .bar {
+          fill: steelblue;
+      }
+  </style>
   <title>D3 Challenge</title>
 </head>
 <body>
   <div id="container">
-  
+
     <h1>AFC Wimbledon Results</h1>
-    <div id="results"></div>
+    <div id="results" style="margin:auto"></div>
     <hr />
     <h2>AFC Wimbledon Top Scorer</h2>
     <div id="top-score"></div>
+    <script src="script.js"></script>
   </div>
-  <script src="https://d3js.org/d3.v4.js"></script>
-  <script src="script.js"></script>
-  <script src="d3.layout.cloud.js"></script>
-  <script src="topscore.js"></script>
+
+  <!-- <script src="script2.js"></script> -->
 </body>
 </html>
