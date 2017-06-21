@@ -71,7 +71,8 @@ let redraw = (data) => {
     .call(yAxis);
 
     svg.selectAll('rect')
-    .transition().style("fill","red").duration(10000);;
+    .transition().style("fill","red")
+    .duration(10000);;
 }
 
 reload()
